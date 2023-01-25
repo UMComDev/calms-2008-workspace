@@ -1,0 +1,182 @@
+/* **************************************************************************
+* 
+*	UNITED METHODIST CHURCH
+* 	HOMENAV.CSS - homepage navigation styles
+*	LAST UPDATED 2006.01.05 by amelia t. catalano
+*
+*************************************************************************** */
+div#mainNav {
+	position: absolute;
+	top: 305px;
+	width: 100%;
+	z-index: 5;
+	margin-top:0px;
+	_margin-top:2px;
+}
+
+div#mainNav img {
+	border: 0;
+}
+
+div.nosub {
+	background: #337300 url("http://calms.umc.org/2008/style/110606/nav-bg-ie-nosub.gif") repeat-x;
+	height: 40px;
+}
+	
+div#mainNav ul {
+	margin: 0;
+	padding: 0;
+	width: 760px;
+}
+
+div#mainNav ul li {
+	/*float the main list items*/
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+}
+
+div#mainNav ul li#mainNav OurChurch {
+	background-color: #6BC026;
+}
+
+div#mainNav ul li#mainNav OurFaith {
+	background-color: #62AD2A;
+}
+
+div#mainNav ul li#mainNav OurPeople {
+	background-color: #3E9000;
+}
+
+div#mainNav ul li#mainNav OurWorld {
+}
+
+div#mainNav ul li a {
+	/*for all links in the list*/
+	display: block;
+	height: 36px;
+	width: 129px;
+	border-right: 1px solid #fff;
+}
+
+div#mainNav ul li#ourfaith a {
+	width: 122px;
+}
+
+div#mainNav ul li#ourfaith ul li a {
+	width: auto;
+}
+
+div#mainNav ul li#ourpeople a {
+	width: 126px;
+}
+
+div#mainNav ul li#ourpeople ul li a {
+	width: auto;
+}
+
+div#mainNav ul li#ourworld a {
+	width: 127px;
+}
+
+div#mainNav ul li#ourworld ul li a {
+	width: auto;
+}
+
+div#mainNav ul li.on a {
+}
+
+div#mainNav ul li ul {
+	/*put the submainNavs below and hide them all*/
+	display: none;
+	position: absolute;
+	top: 37px;
+	height: 24px;
+	left: 0;
+	background: #337300 url(http://calms.umc.org/2008/style/110606/bg-greyline.gif) repeat-x 0 bottom;
+	width: 100%;
+}
+
+div#mainNav ul li#ourchurch ul {
+	background-color: #6BC026;
+}
+
+div#mainNav ul li#ourfaith ul {
+	background-color: #62AD2A;
+}
+
+div#mainNav ul li#ourpeople ul {
+	background-color: #3E9000;
+}
+
+div#mainNav ul li#ourworld ul {
+	background-color: #337300;
+}
+
+div#mainNav ul li.on ul {
+	/*display active subnav list*/
+	display: block;
+}
+
+div#mainNav ul li ul li {
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+div#mainNav ul li ul li span {
+	color: #ccf5ab;
+	font-size: 10px;
+	vertical-align: top;
+}
+
+div#mainNav ul li ul li a,
+div#mainNav ul li.on ul li a { /*specificity to get rid of border */
+	float: left;
+	/*ie doesn't inherit the float*/
+	border: 0;
+	width: auto;
+	padding: 0 10px;
+	/*border-right: 1px solid #ccf5ab;*/
+	color: #ccf5ab;	
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration:none;
+	height: auto;
+	margin-bottom: 2px;
+}
+
+div#mainNav ul li ul li.last a {
+	border-right: 0;
+}
+
+div#mainNav ul li ul li a:hover {
+color: #FFF;
+}
+
+/*  ***
+*	subsection: PRIMARY TASKS links
+****************************************** */
+div#actionItems {
+	position: absolute;
+	top: 317px;
+	left: 515px;
+	z-index: 6;
+	width: 255px;
+}
+
+div#actionItems img {
+	border: 0;
+}
+
+div#actionItems ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#actionItems ul li {
+	float: left;
+	margin: 0;
+	padding: 0 4px 0 0;
+}

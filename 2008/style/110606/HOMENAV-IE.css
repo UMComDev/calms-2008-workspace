@@ -1,0 +1,109 @@
+/* **************************************************************************
+* 
+*	UNITED METHODIST CHURCH
+* 	HOMENAV-IE.CSS - homepage navigation styles fir IE
+*	LAST UPDATED 2006.01.05 by joshua p. orum
+*
+*************************************************************************** */
+div#bgpreload {
+	width: 1px;
+	position: absolute;
+	left: -20px;
+	top: 0;
+}
+
+div#preload div.ourchurch {
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourchurch.gif) no-repeat;
+	height:62px;
+}
+
+div#preload div.ourfaith {
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourfaith.gif) no-repeat;
+	height:62px;
+}
+
+div#preload div.ourpeople {
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourpeople.gif) no-repeat;
+	height:62px;
+}
+
+div#preload div.ourworld {
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourworld.gif) no-repeat;
+	height:62px;
+}
+
+div.ourChurch {
+	height: 62px;
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourchurch.gif) repeat-x 0 0;
+}
+
+div.ourChurch ul li#ourchurch ul {
+	display: block;
+	z-index: 6000; 
+	width: 760px;
+}
+
+div.ourChurch ul li#ourchurch a {
+	border-bottom: 1px solid #6BC026;
+}
+
+div.ourChurch ul li#ourchurch ul li a { /*this keeps the subnav a's from having a border*/
+	border-bottom: 0;
+}
+				
+div.ourFaith {
+	height: 62px;
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourfaith.gif) repeat-x 0 0;
+}
+	
+div.ourFaith ul li#ourfaith ul {
+	display: block;
+	z-index: 6000;
+	width: 760px; 
+}
+
+div.ourFaith ul li#ourfaith a {
+	border-bottom: 1px solid #62AD2A;
+}
+	
+div.ourFaith ul li#ourfaith ul li a { /*this keeps the subnav a's from having a border*/
+	border-bottom: 0;
+}
+
+div.ourPeople {
+	height: 62px;
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourpeople.gif) repeat-x 0 0;
+	}
+
+div.ourPeople ul li#ourpeople ul {
+	display: block;
+	z-index: 6000; 
+	width: 760px;
+}
+
+div.ourPeople ul li#ourpeople a {
+	border-bottom: 1px solid #3E9000;
+}
+
+div.ourPeople ul li#ourpeople ul li a { /*this keeps the subnav a's from having a border*/
+	border-bottom: 0;
+}
+
+div.ourWorld {
+	height: 62px;
+	background: #337300 url(http://calms.umc.org/2008/style/110606/nav-bg-ie-ourworld.gif) repeat-x 0 0;
+}
+
+div.ourWorld ul li#ourworld ul {
+	display: block;
+	z-index: 6000; 
+	width: 760px;
+}
+
+div.ourWorld ul li#ourworld a {
+	border-bottom: 1px solid #337300;
+}
+
+div.ourWorld ul li#ourworld ul li a { /*this keeps the subnav a's from having a border*/
+	border-bottom: 0;
+}

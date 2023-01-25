@@ -1,0 +1,223 @@
+.menuButton {
+	background: #7098C1;
+	border: 1px solid black;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 2px 2px;
+}
+
+.menuBlockLink {
+	text-align: center;
+}
+
+.menuBlockLink a {
+	display: block;
+	padding: 1px;
+}
+
+.menuBlockLink a:hover {
+	/*background: rgb(200, 200, 200);*/
+	border: 1px solid #CCCCCC;
+	padding: 0px;
+}
+
+.menuForm {
+	display: inline;
+}
+
+.menuBox {
+	border: 1px dashed #CCCCCC;
+	background-color: rgb(245, 245, 245);
+}
+
+.menuBoxHeader td {
+	background-color: rgb(245, 245, 245);
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.menuTable td {
+	font-size: 12px;
+}
+
+.menuTableHeader td {
+	background-color: #FF9900;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px 2px 2px 4px;
+	text-transform: uppercase;
+}
+
+.FAC-headoftable {background-color:#DADFAE}
+ .FAC-bodyoftable {background-color:#F0E9BD}
+
+.tabContentDiv {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    width: 100%;
+}
+
+div.innerDiv {
+	background: #FFF;
+	border: 1px solid #D38200;
+	/*border-top: 3px solid #D38200; */
+	margin-bottom: 20px;
+	width: 463px;
+	border-style: none solid solid;
+}
+
+div.innerDiv ul#innernav {
+	background: #D38200;
+	font-size: 11px;
+	height: 20px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+div.innerDiv ul#innernav li {
+	float: left;
+	height: 18px;
+	padding: 2pt 0pt 0pt;
+	text-align: center;
+	width: 115px;
+}
+
+div.innerDiv ul#innernav li.meth_resource_sep {
+	background: #FFFFFF url(http://calms.umc.org/2008/spacer.gif) no-repeat;
+	color: #FFFFFF;
+	width: 1px;
+}
+
+div.innerDiv ul#innernav li.overview {
+}
+
+div.innerDiv ul#innernav li a {
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+}
+
+div.innerDiv #innercontent {
+	padding: 5px 0px 10px 0px;
+	font-size: 11px;
+	width:440px;
+}
+
+div.innerDiv #innercontent h2 {
+	clear: both;
+	font: bold 11px Helvetica,Arial,sans-serif;
+	color: #FFF;
+	text-transform: uppercase;
+	background: url('http://www.umc.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-orangegreyline.gif') repeat-x 0;
+	height: 21px;
+	padding-left: 13px;
+	padding-top: 4px;
+	margin: 5px 0 0 0;
+}
+
+div.innerDiv #innercontent h2 td {
+	font: bold 11px Helvetica,Arial,sans-serif;
+	color: #FFF;
+}
+
+div.innerDiv #innercontent h2 td a {
+	color: #FFF;
+}
+/*
+div.innerDiv #innercontent ul li {
+	padding-left: 7px;
+	margin-bottom: 5px;
+	background: url(bullet-grey.gif) no-repeat 0 5px;
+}
+*/
+td.tableHeading {
+	color: #FFFFFF;
+	background: url('http://www.umc.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-orangegreyline.gif') #EAA63B repeat-x bottom;
+	padding-left: 13px;
+	padding-right: 13px;
+	text-transform: uppercase;
+}
+
+td.tableHeading td {
+	color: #FFFFFF;
+	font: bold 11px Helvetica,Arial,sans-serif;
+	padding-bottom: 4px;
+}
+
+td.tableHeading td a {
+	color: #FFFFFF;
+}
+
+tr.firstColor td {
+	background: #FFFFFF;
+	border-bottom: 1px solid #B3B3B3;
+}
+
+tr.firstColor td a 
+{
+	background: transparent url(linkarrow.gif) no-repeat scroll 100% 50%;
+	padding-right: 8px;
+}
+
+tr.secondColor td {
+	background: #F4F5E6;
+	border-bottom: 1px solid #B3B3B3;
+}
+
+tr.secondColor.noBottom td {
+	border-bottom: none;
+}
+
+tr.secondColor td a 
+{
+	background: transparent url(linkarrow.gif) no-repeat scroll 100% 50%;
+	padding-right: 8px;
+}
+
+tr.titleRow td {
+	font-size: 12px;
+	height: 24px;
+}
+
+.separator {
+	height: 4px;
+	width: 100px;
+	border-bottom: 1px dotted #B3B3B3;
+}
+
+.motionSeparator {
+	height: 4px;
+	border-bottom: 1px dotted #B3B3B3;
+}
+
+.plenaryText {
+	padding-left: 8px;
+}
+
+.tabActive {
+	cursor: pointer;
+}
+
+div#inner ul#innernav li.overview a.tabDisabled {
+	color: #B3B3B3;
+	text-decoration: none;
+}
+
+.additionalOptionsList {
+	list-style: none;
+}
+
+.additionalOptionsList li {
+	margin-left: -16px;
+}
+
+#header, #greyline, #footer, #contactUsFooter, #universalnav, iframe {
+	display: none;
+}

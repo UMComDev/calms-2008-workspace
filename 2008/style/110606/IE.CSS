@@ -1,0 +1,149 @@
+/* **************************************************************************
+* 
+*	UNITED METHODIST CHURCH
+* 	IE.CSS - overwrite styles to address IE issues
+*	LAST UPDATED 2006.01.04 by amelia t. catalano
+*
+*************************************************************************** */
+
+div#header div.subnav {
+	margin-top: 0;
+	}
+	
+body.home div#content div#columnlinks {
+	padding-top: 35px;
+	}
+	
+body.home div#header {
+	height: 277px;
+}
+
+
+body.home div#header div.subheader div#logo span {
+	left: 485px;
+	}
+
+body.ourworld.newsstory div#columnlinks div.columnblock.relatedarticles a,
+body.ourworld.newsstory div#columnlinks div.columnblock.moremethopedia a,
+body.ourworld.newsstory div#columnlinks div.columnblock.leaderresources a {
+	padding: 4px 0 3px 0;
+	}
+	
+div#universalnav .firstlevel {
+	top: 22px;	
+	}
+	
+div.columnblock {
+	padding: 0 8px 9px 8px;
+}
+	
+body.ourworld.newsstory div#maincontent div.printlinks.higher a {
+	width: 110px;
+	margin-right: 0;
+	padding-right: 0;
+}
+	
+div#inner div#innercontent div.resourceblock {
+	margin: 0;
+	padding: 0;
+	}
+
+div#inner div#innercontent div.resourceblock.first {
+	margin-top: 10px;
+	border: 0;
+	}
+
+div#inner div#innercontent div.backtotoplink {
+	margin-bottom: 5px;
+	}
+
+div#inner div#innercontent div.resourceblock div.text {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	}
+
+div#columnlinks-secondary div.columnblock {
+	margin-bottom: 2px;
+	}
+
+body.ourworld.methopedia.overview div#inner {
+	padding-bottom: 10px;
+	}
+
+body.ourworld.findachurch div#maincontent form div.greyline {
+	margin: 11px 0 0 0;
+	}
+
+body.ourworld.methopedia.main div#content div#maincontent {
+	padding-bottom: 8px;
+	}
+	
+body.ourworld.methopedia.main div#content #whatsthis_beta {
+	right: 409px;	
+	}
+
+body.askinfoserv div#maincontent div#howcanilearn {
+margin-bottom: 10px;
+	}
+	
+body.askinfoserv div#maincontent div#howcanilearn ul#columnarlist li {
+	margin-bottom: 3px;
+	}
+
+body.askinfoserv form div#disclaimer #whatsthis_beta {
+	right: -5px;
+	}
+	
+body.ourworld.newsstory #askusnow form {
+	top: -545px; 
+	left: 475px;
+	}
+	
+body.ourworld.newsstory #askusnow form div#disclaimer #whatsthis_beta {
+	right: -45px;
+	}
+	
+#MovieFlash {
+	float:left;
+	padding: 0 16px;
+	margin-left:18px;
+	border-left:1px dotted #D38200;
+}
+
+.CloseMovie img {
+	float:left;	
+	border:0;
+}
+
+div#inner div#innercontent div.TopMovie {
+	position:absolute;
+	z-index:20;
+	background-color:#FFF;
+	padding:10px;
+	height:200px;
+	width:745px;
+}
+
+#GreyBox {
+	width:1500px;
+	height:3000px;
+	position: absolute;
+	background-color:#000;
+	filter:alpha(opacity=60);
+	opacity:.6;
+	top:-300px;
+	left:0;
+}
+
+.Spacer {
+	clear:both;
+	height:10px;
+}
+
+.ArticleMovieSpacer {
+	clear:both;
+}
+
+
+
+

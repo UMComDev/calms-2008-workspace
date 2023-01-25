@@ -1,0 +1,293 @@
+#navcontainer {width:760px}
+
+#topnav {float:right}
+#topnav, #topnav UL  {PADDING: 0px; MARGIN: 0px; LINE-HEIGHT: 1px; LIST-STYLE-TYPE: none; LIST-STYLE-image: none;z-index:999;}
+
+/* fix added by kintera to account for menu disapearing when hovering over the 1px space in between the first item and the drop down */
+ul#topnav #boards ul.firstlevel, ul#topnav #clippings ul.firstlevel, ul#topnav #find ul.firstlevel, ul#topnav #search ul.firstlevel {margin-top:6px;}
+ul#topnav #boards ul.firstlevel, ul#topnav #clippings ul.firstlevel, ul#topnav #find ul.firstlevel, ul#topnav #search ul.firstlevel {margin-top:14px;}
+/* end fix */
+
+#topnav A {DISPLAY: block; }
+
+/*first level*/
+#topnav LI {FLOAT: left; LIST-STYLE-TYPE: none; LIST-STYLE-image: none; }
+
+/*controls second level width and padding*/
+#topnav ul a { width: 140px; padding: 0px; LIST-STYLE-image: none}
+#topnav a.firstrow, #topnav a.secondrow {padding: 5px; display:block}
+
+/*controls font color and style for menu items*/
+#topnav LI A {
+	FONT-WEIGHT: bold; COLOR: #003366; text-decoration:none; border-bottom:0;font: 10px Arial, Sans-Serif; LIST-STYLE-image: none;line-height: 12px;}
+
+/*controls menu background color and border around menu itmes, make sure to change class below to affect all borders*/
+#topnav LI UL {BACKGROUND: #A3BEDE; LEFT: -999em; WIDTH: 140px; POSITION: absolute; border:1px solid #fff;border-bottom: 0; LIST-STYLE-image: none;}
+
+/*lines in between each nav item*/
+#topnav LI UL LI {border-bottom:1px solid #fff; WIDTH: 140px;}
+
+/*sub menu hover text color*/
+#topnav li ul li a:hover{color:#fff; background:#2168B1; WIDTH: 130px; _WIDTH: 140px}
+
+/*adjust margin for third level position*/
+#topnav li ul ul {	margin: 23px 0px 0px 141px; _margin: 23px 0px 0px 150px; LIST-STYLE-image: none;}
+body.home #topnav li ul ul { margin: -23px 0px 0px 140px; _margin: -23px 0px 0px 150px; LIST-STYLE-image: none;}
+
+#topnav li:hover ul ul, #topnav li:hover ul ul ul, #topnav li.sfhover ul ul, #topnav li.sfhover ul ul ul {left: -999em; LIST-STYLE-image: none;}
+
+#topnav li:hover ul, #topnav li li:hover ul, #topnav li li li:hover ul, #topnav li.sfhover ul, #topnav li li.sfhover ul, #topnav li li li.sfhover ul {left: auto; LIST-STYLE-image: none;}
+
+/*sub menu background hover color*/
+#topnav li:hover, #topnav li.sfhover {LIST-STYLE-image: none;}
+
+/*second level position*/
+#topnav li ul {margin-top:10px; _margin-top:17px;}
+body.home #topnav li ul {margin-top:0px; _margin-top:7px;}
+
+
+
+div#universalnav {	
+	font-size: 10px;
+	border-top: 1px solid #3F6EAA;
+	border-bottom: 1px solid #3F6EAA;
+	background-color: #7098C1;
+	height: 25px; _height: 20px;
+	
+	}
+
+/*div#universalnav ul li img {
+	border: 0;
+	margin-top: 3px;
+	}
+
+
+div#universalnav ul {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0 0 0 50px;
+	width: 742px;
+	}
+
+
+div#universalnav ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	}
+*/
+
+div#universalnav ul li#umchome {
+	width: 106px;
+	height:22px;
+	padding-top:4px;
+	}
+
+div#universalnav ul li#boards {
+	width: 90px;
+	height:22px;
+	padding-top:4px; display:block
+	}
+
+div#universalnav ul li#clippings {
+	width: 78px;
+	height:22px;
+	}
+
+div#universalnav ul li#find {
+	width: 90px;
+	height:22px;
+	padding-top:4px
+	}
+
+/*
+div#universalnav ul li ul {
+	position: absolute;
+	display: none;
+	margin: 0;
+	padding: 0;
+	top: 22px;
+	left: 0px;
+	width: 155px;
+	}
+
+div#universalnav ul li#umchome:hover ul,
+div#universalnav ul li#umchome.hover ul,
+div#universalnav ul li#boards:hover ul,
+div#universalnav ul li#boards.hover ul,
+div#universalnav ul li#clippings:hover ul,
+div#universalnav ul li#clippings.hover ul,
+div#universalnav ul li#find:hover ul,
+div#universalnav ul li#find.hover ul{
+	display: block;
+	}
+	
+div#universalnav ul li ul li {
+	background: none;
+	text-indent: 0;
+	float: none;
+	white-space: nowrap;
+	width: 150px;
+	}
+
+div#universalnav ul li ul li a {
+	background-color: #a3bede;
+	display: block;
+	height: 20px;
+	padding: 5px 0px 0px 10px;
+	color: #324c6e;
+	text-decoration: none;
+	font-size: 10px;
+	border-top: 0;
+	}
+
+div#universalnav ul li ul li a:hover,
+div#universalnav ul li ul li a.hover {
+	color: #FFF;
+	background-color: #2168b1;
+	}
+
+div#universalnav ul li ul li a.firstrow { /* first item is flush with bottom border of transit center. remove right border due to 1px white overlap */
+	/*border-top: 1px solid #3F6EAA;*/
+/*	border: 1px solid #FFF;
+/*	border-right: 0;
+/*	width: 138px;
+	}
+
+div#universalnav ul li ul li a.firstrow.umchome {
+	text-indent: -1000px;
+	background:  #a3bede url('navitem-umcorghome.gif') no-repeat 10px 10px;
+	}
+
+div#universalnav ul li ul li a.firstrow.umchome.hover,
+div#universalnav ul li ul li a.firstrow.umchome:hover {
+	background-color:  #a3bede;
+	}
+	
+*/
+div#universalnav ul li form {
+	padding: 0;
+	margin: 0;
+	}
+	
+div#universalnav ul li#search {
+	padding: 2px 0 0 0;
+	margin: 0;
+	}
+
+div#universalnav ul li#search table td{
+	padding:0 2px;
+	_padding:0;
+}
+
+div#universalnav form input.textbox {
+	vertical-align: top;
+	font-size: 9px;
+	height: 12px;
+	padding: 1px;
+	width: 80px;
+	margin: 2px 5px 0 5px;
+	border: 1px solid #CCC;
+	}
+	
+div#universalnav form input.radiobutton {
+	margin: 0 1px 0 0;
+	padding: 0;
+	vertical-align: top;
+	position: relative;
+	top: 2px;
+	}
+
+div#universalnav form input.submitbutton {
+	margin: 2px 0 0 0;
+	padding: 0;
+	}	
+
+
+/* iframe for Flash movies or Form elements */
+iframe#iframeHidden {
+	position: absolute;
+	font-size: 10px; /* avoid pixel discrepancy with font-size between browsers */
+	left: 156px;
+	border: 0;	
+	background-color: #FFFFFF;
+	filter: chroma(color=#FFFFFF);
+	width: 150px;
+	height: 337px;
+	z-index: 1;
+	}
+	
+
+/* remove home link on home page */
+
+body.home div#universalnav ul li#umchome {
+	display:none;
+}
+
+/*reskin stuff*/
+div#inner ul#innernav {
+	background-color: #44403c;
+	font-size: 11px;
+	margin: 0; 
+	padding: 0;
+	height: 20px;
+	list-style:none;
+	}
+
+div#inner ul#innernav li {
+/* border-right: 1px solid #fff; */
+float: left;
+text-align: center;
+padding: 2px 0 0 0;
+width: 115px;
+height: 18px;
+}
+
+div#inner ul#innernav li.overview a.overviewOn {
+text-align: center;
+display: block;
+height: 16px;
+padding: 2px 0px 0px 0px;
+color: #44403c;
+font-weight: bold;
+background: #ffffff;
+}
+
+div#inner ul#innernav li a {
+color: #FFF;
+font-weight: bold;
+position: relative;
+}
+
+div#inner {
+background: #FFF;
+/* border-top: 3px solid #44403c; */
+border-top: 0;
+margin-bottom: 20px;
+width: 463px;
+}
+
+td {
+font: normal 11px Arial, Helvetica, sans-serif;
+color: #333;
+}
+
+.tabActive {
+cursor: pointer;
+}
+
+div#inner ul#innernav li.meth_resource_sep {
+width: 1px;
+background: #FFF url(http://calms.umc.org/2008/style/110606/spacer.gif) no-repeat 0 0;
+color: #FFFFFF;
+}
+
+body {
+	font: normal 11px Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #EE3923;
+}
