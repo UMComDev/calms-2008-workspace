@@ -90,7 +90,7 @@ div.innerDiv ul#innernav li {
 }
 
 div.innerDiv ul#innernav li.meth_resource_sep {
-	background: #FFFFFF url(http://calms.umc.org/2008/spacer.gif) no-repeat;
+	background: #FFFFFF /*url(http://calms.umc.org/2008/spacer.gif)*/ no-repeat;
 	color: #FFFFFF;
 	width: 1px;
 }
@@ -115,7 +115,7 @@ div.innerDiv #innercontent h2 {
 	font: bold 11px Helvetica,Arial,sans-serif;
 	color: #FFF;
 	text-transform: uppercase;
-	background: url('http://www.umc.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-orangegreyline.gif') repeat-x 0;
+	/* background: url('http://www.umc.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-orangegreyline.gif') repeat-x 0; */
 	height: 21px;
 	padding-left: 13px;
 	padding-top: 4px;
@@ -139,7 +139,7 @@ div.innerDiv #innercontent ul li {
 */
 td.tableHeading {
 	color: #FFFFFF;
-	background: url('http://www.umc.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-orangegreyline.gif') #EAA63B repeat-x bottom;
+	background: /*url('http://www.umc.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-orangegreyline.gif')*/ #EAA63B repeat-x bottom;
 	padding-left: 13px;
 	padding-right: 13px;
 	text-transform: uppercase;
