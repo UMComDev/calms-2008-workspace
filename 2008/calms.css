@@ -90,7 +90,7 @@ div.innerDiv ul#innernav li {
 }
 
 div.innerDiv ul#innernav li.meth_resource_sep {
-	background: #FFFFFF /*url(http://calms.umc.org/2008/spacer.gif)*/ no-repeat;
+	background: #FFFFFF no-repeat;
 	color: #FFFFFF;
 	width: 1px;
 }
