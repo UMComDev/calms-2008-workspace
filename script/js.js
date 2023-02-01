@@ -178,6 +178,8 @@ if(window.addEventListener){
  *				
  * ********************************************************* */
  
+
+ /* Images no longer available
 var img1 = new Image();
 img1.src = 'http://www.kintera.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/nav-bg-ie-nosub.gif';
  
@@ -198,12 +200,12 @@ img6.src = 'http://www.kintera.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B642474
 
 var img7 = new Image();
 img7.src = 'http://www.kintera.org/atf/cf/%7BDB6A45E4-C446-4248-82C8-E131B6424741%7D/bg-greyline.gif';
-
+*/
 
 var lx;
 var ly;
 
-
+/*
 function makeRequestLogin(obj) {
 	url='http://www.kintera.org/atf/cf/{DB6A45E4-C446-4248-82C8-E131B6424741}/LOGIN.HTML';
 	http_request = false;
@@ -233,6 +235,7 @@ function makeRequestLogin(obj) {
 	lx = obj.offsetLeft;
 	ly = obj.offsetTop+obj.offsetHeight;
 }
+*/
 
 function displayLogin(obj) {
 	if (http_request.readyState == 1) {
