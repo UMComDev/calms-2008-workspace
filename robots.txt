@@ -1,2 +1,2 @@
-User-Agent: *
-Sitemap: https://calms2008.umc.org/2008/sitemap.xml
+User-agent: *
+Sitemap: https://calms2008.umc.org/sitemap.xml
